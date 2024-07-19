@@ -1,0 +1,9 @@
+Using library - OpenCV (cv2)
+				Ultralytics (YOLO)
+
+Install above Library - pip install opencv-python
+						pip install ultralytics
+
+Working - This code uses YOLOv8 to detect objects in a video, tracks their movement, and estimates their speed.
+ 		  It reads a video file, processes each frame, draws speed estimates, and writes the output to a new video file. 
+ 		  The SpeedEstimator class calculates speed based on object movement between frames.
